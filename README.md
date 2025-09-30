@@ -78,9 +78,11 @@ Tous les graphiques et fichiers finaux sont sauvegardés dans `processed/graphs/
 ---
 
 ## Licence
-Projet personnel. Scripts partagés sous licence **MIT**.
+Projet personnel. Scripts partagés sous licence **MIT**.  
+Voir le fichier [LICENSE](https://github.com/braz0101/GNetTrackAnalytics/blob/main/LICENSE) pour plus de détails.
 
 ---
 
 ## Auteur
-**Ibrahima FALL** – Projet personnel de traitement et analyse des fichiers G-NetTrack Pro.
+[Ibrahima FALL](https://github.com/braz0101) – Projet personnel de traitement et analyse des fichiers G-NetTrack Pro.
+
