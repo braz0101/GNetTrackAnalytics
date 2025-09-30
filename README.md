@@ -47,7 +47,7 @@ GNetTrackAnalytics/
 ## Installation
 1. Cloner le repository :
 ```bash
-git clone https://github.com/<braz0101>/GNetTrackAnalytics.git
+git clone https://github.com/braz0101/GNetTrackAnalytics.git
 cd GNetTrackAnalytics
 ```
 
