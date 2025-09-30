@@ -91,19 +91,19 @@ Tous les graphiques et fichiers finaux sont sauvegardés dans `processed/graphs/
 Exemples de graphiques générés:  
 
 <img width="800" height="600" alt="cdf_download" src="https://github.com/user-attachments/assets/a955e069-b9cf-4c19-bc11-d2ddb4844b86" />
-**CDF – Débit descendant par opérateur**
+CDF – Débit descendant par opérateur
 
 <img width="800" height="500" alt="barplot_upload_mbps" src="https://github.com/user-attachments/assets/2debfcf3-853b-4d61-87ab-1269bd1d4217" />
-**Barplot – Débit montant moyen par opérateur**
+Barplot – Débit montant moyen par opérateur
 
 <img width="800" height="500" alt="barplot_ping_ms" src="https://github.com/user-attachments/assets/73eead34-ec5c-4786-b191-458a6767365f" />
-**Barplot – Ping moyen par opérateur**
+Barplot – Ping moyen par opérateur
 
 <img width="800" height="500" alt="barplot_download_mbps" src="https://github.com/user-attachments/assets/bcd9f896-361c-43fb-8449-2af87c252af6" />
-**Barplot – Débit descendant moyen par opérateur**
+Barplot – Débit descendant moyen par opérateur
 
 <img width="800" height="500" alt="fiabilite_stacked" src="https://github.com/user-attachments/assets/9403c54a-8235-4cc2-a509-b586ad99e516" />
-**Stacked Bar – Événements de fiabilité par opérateur**
+Stacked Bar – Événements de fiabilité par opérateur
 
 ---
 
