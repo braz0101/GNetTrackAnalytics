@@ -103,6 +103,7 @@ Exemples de graphiques générés:
 
 <img width="800" height="500" alt="fiabilite_stacked" src="https://github.com/user-attachments/assets/9403c54a-8235-4cc2-a509-b586ad99e516" />
 **Stacked Bar – Événements de fiabilité par opérateur**
+
 ---
 
 ## Licence
