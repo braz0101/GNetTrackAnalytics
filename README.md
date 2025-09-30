@@ -27,8 +27,9 @@ GNetTrackAnalytics/
 ├── processed/              # CSV nettoyés et résultats
 │   ├── graphs/             # Graphiques générés
 │   ├── *_clean.csv         # CSV nettoyés par script
-│   ├── resume_stats_radio.csv
-│   ├── resume_stats_datatest.csv
+│   ├── *_datatest_clean.csv
+│   ├── *_events_clean.csv
+│   ├── *_stats_clean.csv
 │   ├── resume_stats_events.csv
 │   ├── resume_events_detail.csv
 │   └── resume_global.csv
