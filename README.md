@@ -89,6 +89,7 @@ Tous les graphiques et fichiers finaux sont sauvegardés dans `processed/graphs/
 
 ## Exemples de sortie
 Exemples de graphiques générés:  
+
 <img width="800" height="600" alt="cdf_download" src="https://github.com/user-attachments/assets/a955e069-b9cf-4c19-bc11-d2ddb4844b86" />
 **CDF – Débit descendant par opérateur**
 
