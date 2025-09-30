@@ -1,0 +1,4 @@
+Operator,Download_mean,Download_median,Download_min,Download_max,Upload_mean,Upload_median,Upload_min,Upload_max,Ping_mean,Ping_median,Ping_min,Ping_max
+Orange,5989.18,0.0,0.0,43066.0,587.6,1.5,0.0,8825.0,722.4,122.0,56,18761
+Yas,3307.24,0.0,0.0,20084.0,1318.83,0.0,0.0,6800.0,211.83,146.0,141,2260
+expresso,15742.14,12844.5,0.0,65917.0,3135.77,2587.5,0.0,9505.0,2715.51,99.0,0,50041

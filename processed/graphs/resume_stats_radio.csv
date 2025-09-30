@@ -1,0 +1,6 @@
+,Level,Level,Level,Level,SNR,SNR,SNR,SNR,CQI,CQI,CQI,CQI
+,mean,median,min,max,mean,median,min,max,mean,median,min,max
+Operator,,,,,,,,,,,,
+Orange,-10.02,-10.0,-20.0,-3.0,9.08,9.0,3.0,15.0,-76.58,-71.0,-113.0,-51.0
+Yas,-10.1,-10.0,-22.0,-3.0,,,,,-76.46,-81.0,-109.0,0.0
+expresso,-2.94,-3.0,-20.0,25.0,-36.6,-51.0,-71.0,76.0,1391.83,-1.0,-75.0,10687.0

@@ -1,0 +1,5 @@
+Event,Stats,SourceFile
+Voice Calls,40,Orange_log_stats.txt
+Successful Calls,39,Orange_log_stats.txt
+Blocked Calls,0,Orange_log_stats.txt
+Dropped Calls,0,Orange_log_stats.txt

@@ -1,0 +1,5 @@
+Event,Stats,SourceFile
+Voice Calls,41,Yas_log_stats.txt
+Successful Calls,39,Yas_log_stats.txt
+Blocked Calls,0,Yas_log_stats.txt
+Dropped Calls,2,Yas_log_stats.txt

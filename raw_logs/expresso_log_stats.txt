@@ -1,0 +1,5 @@
+Event	Stats
+Voice Calls	41
+Successful Calls	39
+Blocked Calls	0
+Dropped Calls	0
