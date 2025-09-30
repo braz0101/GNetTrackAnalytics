@@ -1,4 +1,10 @@
+
 # GNetTrackAnalytics
+
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
+---
 
 ## Description
 **GNetTrackAnalytics** est un projet personnel visant à analyser les fichiers TXT générés par l’application **G-NetTrack Pro** lors de campagnes de mesures réseau mobile.
@@ -15,7 +21,7 @@ Le projet permet de :
 ## Objectifs
 - Créer un pipeline Python complet pour automatiser le traitement des données G-NetTrack Pro.
 - Produire des analyses et des graphiques facilement interprétables.
-- Expérimenter avec la manipulation de données et la visualisation statistique.
+- Manipuler et visualiser facilement les données pour des analyses réseau rapides.
 - Faciliter l’évaluation de la QoS d’un réseau mobile à partir des fichiers logs bruts.
 
 ---
@@ -23,25 +29,28 @@ Le projet permet de :
 ## Structure du projet
 ```
 GNetTrackAnalytics/
-├── raw_logs/               # Fichiers TXT bruts de G-NetTrack Pro
-├── processed/              # CSV nettoyés et résultats
-│   ├── graphs/             # Graphiques générés
-│   ├── *_clean.csv         # CSV nettoyés par script
-│   ├── *_datatest_clean.csv
-│   ├── *_events_clean.csv
-│   ├── *_stats_clean.csv
+├── raw_logs/                  # Fichiers TXT bruts de G-NetTrack Pro
+├── processed/                 # CSV nettoyés et résultats
+│   ├── graphs/                # Graphiques générés par les scripts
+│   ├── *_clean.csv            # Données radio nettoyées
+│   ├── *_datatest_clean.csv   # Données performance data nettoyées
+│   ├── *_events_clean.csv     # Événements réseau nettoyés
+│   ├── *_stats_clean.csv      # Statistiques intermédiaires
 │   ├── resume_stats_events.csv
 │   ├── resume_events_detail.csv
-│   └── resume_global.csv
-├── clean_txt_to_csv.py     # Nettoyage des fichiers TXT
-├── plot_signal_quality.py  # Analyse et visualisation qualité radio
-├── analyze_datatest.py     # Analyse et visualisation performance data
-├── analyze_events.py       # Analyse événements réseau
-├── plot_events.py          # Graphiques événements réseau
-├── run_all.py              # Orchestration complète du pipeline
-├── .gitignore              # Ignorer fichiers temporaires / CSV / graphs
-└── README.md               # Ce fichier
+│   └── resume_global.csv      # Résumé global par opérateur
+├── clean_txt_to_csv.py        # Nettoyage des fichiers TXT
+├── plot_signal_quality.py     # Analyse et visualisation qualité radio
+├── analyze_datatest.py        # Analyse et visualisation performance data
+├── analyze_events.py          # Analyse événements réseau
+├── plot_events.py             # Graphiques événements réseau
+├── run_all.py                 # Orchestration complète du pipeline
+├── .gitignore                 # Ignorer fichiers temporaires / CSV / graphs
+└── README.md                  # Ce fichier
 ```
+
+⚠️ Remarque : les chemins dans les scripts utilisent des **chemins relatifs**.  
+Assurez-vous de conserver la structure des dossiers comme indiqué ci-dessus et de remplacer les chemins absolus par votre propre répertoire local si nécessaire.
 
 ---
 
@@ -78,6 +87,12 @@ Tous les graphiques et fichiers finaux sont sauvegardés dans `processed/graphs/
 
 ---
 
+## Exemple de sortie
+Exemple de graphique généré :  
+![Exemple Boxplot RSRP](processed/graphs/boxplot_level.png)
+
+---
+
 ## Licence
 Projet personnel. Scripts partagés sous licence **MIT**.  
 Voir le fichier [LICENSE](https://github.com/braz0101/GNetTrackAnalytics/blob/main/LICENSE) pour plus de détails.
@@ -87,3 +102,8 @@ Voir le fichier [LICENSE](https://github.com/braz0101/GNetTrackAnalytics/blob/ma
 ## Auteur
 [Ibrahima FALL](https://github.com/braz0101) – Projet personnel de traitement et analyse des fichiers G-NetTrack Pro.
 
+---
+
+## Contribuer
+Les contributions sont les bienvenues !  
+Pour proposer des améliorations, créez un fork du dépôt, puis soumettez une pull request.
